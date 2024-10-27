@@ -21,7 +21,7 @@ body {
 }
 
 p {
-    font-size: 5vh;
+    font-size: 5vw;
     width: auto !important;
     align-self: center;
     color: #ffffff;
@@ -30,9 +30,15 @@ p {
 .btn {
     font-family: ITC-regular;
     /* margin: auto; */
-    width: 15vw;
-    height: 10vh;
-    font-size: 5vh;
+    width: auto;
+    padding: 5%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    height: 10vw;
+    font-size: 5vw;
     align-self: center;
     background-color: darkgreen;
     color: white;
